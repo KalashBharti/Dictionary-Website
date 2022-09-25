@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="6i2KALQ_D5lUlYK4tUsTiDBTQguNsYEdqB70sw6v8wU" />
+    <title>Easy Word</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body id="body">
+    
+    <div class="form-check form-switch darkmode">
+        <input class="form-check-input"  type="checkbox" role="switch" id="switchMode">
+        <label class="form-check-label" id="modeName">Dark mode</label>
+      </div>
+    <div class="dicContainer" id="container">
+        <div class="m-lg-2">
+            <h1>Easy Word</h1>
+        </div>
+        <div class="input-group mb-3 m-lg-4 w-50">
+            <input class="form-control-plaintext rounded p-1" type="text" placeholder="Enter your word here" id="inputWord">
+        </div>
+        <div class="outputView">
+            <div class="word">
+                Word: <p id="display_word"></p>
+            </div>
+            <div class="meaning">
+                <div class="similarWordBox rounded">
+                    <!-- similar word -->
+                    <h5>Similar word:</h5>
+                    <p id="similarword">
+                    </p>
+                    
+
+                </div>
+                <div class="definition" id="definition">
+                    <!-- definition of words -->
+                    <h3>Definitions:</h3>
+                    <ol id="ol">
+                    </ol>
+                
+
+
+                </div>
+
+
+                </div>
+            
+    
+        </div>
+    </div>
+</body>
+<script src="./displayMode.js"></script>
+<script src="./script.js"></script>
+</html>
